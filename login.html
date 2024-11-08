@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+      ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: hsl(187, 30%, 64%);
+            }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                color: rgb(18, 102, 227);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 24pt;
+            }
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: rgb(85, 149, 205);
+            }
+            li.dropdown {
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: rgb(228, 239, 238);
+                min-width: 140px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align:left;
+            }
+            .dropdown-content a:hover {
+                background-color: rgb(102, 117, 179);
+            }
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+    
+    .t1{width:100%;
+        height: 10%;
+        margin-top: 0px;
+        
+    }
+    #id1{background-color: rgb(227, 227, 235);
+        
+        text-align: center;
+        text-decoration:double;
+    }
+    #id{text-align: center;
+        font-weight: bold;
+    }
+    nav ul{list-style-type:none;
+            }
+            nav a{
+            text-decoration:none;padding-right:90px;
+            font-size: medium;
+            font-weight: bold;
+            padding-bottom: 14%;
+          }
+            nav LI{display: inline;
+            }
+            #id4{background-color: #e6d980;}
+            #id5{text-shadow: 2px 2px hsl(85, 82%, 69%);;}
+            a{color:blue}
+            .BD{background-color:#044242;
+                
+                padding-top: 14%;
+                
+            }
+            .t1{background-color: hsl(187, 55%, 69%);}
+            img{border-radius: 50%;}
+            
+            UL,A{list-style-type: none;
+                text-decoration: none;
+            }
+            .fd{width:50%;
+            height: 20%;
+            float:right;}
+            .footer{background-color:hsl(68, 53%, 38%);
+                width: 100%;
+                height: 20%;
+                margin-bottom: 0px;
+            }
+            picture{width: 100%;
+                
+                position: fixed;
+                top:0;
+                left:0;
+                right: 0;
+                z-index: 500;
+                
+
+
+            }
+
+        
+
+   
+
+    </style>
+</head>
+<body bgcolor="cyan">
+    <picture>
+        <HEADER>
+<form>
+    <table class="t1" >
+        <tr  colspan="4">
+            <tr  colspan="4">
+                <td class="tt"><img src="RNPP.jpg"WIDTH="100"height="100"></td>
+                
+                    <td class="tt"><img src="RNPLOGO.jpg"WIDTH="100"height="100"></td>
+                    </tr>
+            
+                
+    
+            <tr>
+            <TD>
+                <nav>
+                    <ul>
+        <li><a href="index.html">HOME</A></li>
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="LEG.HTML">REGISTER</a></li>
+                        <li class="dropdown"><a class="dropbtn"  href="#">RECRUITMENT</A>
+                        <DIV class="dropdown-content">
+                          <A HREF="BASICP.HTML">RNP Basic course</A>
+                          <A HREF="CADET.HTML">RNP Cadet course</A>
+                        </DIV>
+                        </li>
+                        <li><a href="NOTICE.HTML">NOTICE</A></li>
+                        
+                        <li><a href="ABOUT US.HTML">ABOUT US</A></li>
+                    </UL>
+                </NAV></TD>
+            
+            <td></td>
+            
+        </tr>
+    <tr>
+        <TR></TR>
+            
+            </td>
+            
+            </tr>
+            
+        </tr>
+    </table>
+</form>
+</HEADER>
+
+    </picture>
+    <link rel="stylesheet" href="homecss.css">
+    <div class="body-content" style="padding-top: 10%;">
+
+        <div class="container" style=" margin-top: 5.5%;">
+            <h2>Login</h2>
+            <div class="login-form">
+                <form action="">
+                    <div class="form-item">
+    
+                        <input type="text" name="userName" id="userName" placeholder="Username or Email">
+                    </div>
+                    <div class="form-item">
+                       
+                        <input type="password" name="passWord" id="passWord" placeholder="Password">
+                    </div>
+
+                    <div class="form-btns">
+
+                        <button type="submit"><A HREF="login.html">Login</A></button>
+                        <div class="options">
+                            <a href="LEG.HTML">Sign Up</a>
+                            <a href="login.html">Sign in</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <div class="login-options">
+                <button class='facebook'>Login with Phone number</button>
+                <button class="google">Login with ID number</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

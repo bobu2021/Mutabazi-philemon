@@ -1,0 +1,307 @@
+<html>
+<head>
+<style>
+    
+    ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: hsl(187, 55%, 69%);
+            }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                color: rgb(18, 102, 227);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 24pt;
+            }
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: rgb(77, 165, 242);
+
+            }
+            li.dropdown {
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: rgb(228, 239, 238);
+                min-width: 140px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align:left;
+            }
+            .dropdown-content a:hover {
+                background-color: rgb(102, 117, 179);
+            }
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+    
+    .t1{width:100%;
+        height: 10%;
+        margin-top: 0px;
+        
+    }
+    #id1{background-color: blue;
+        color: bisque;
+        text-align: center;
+        text-decoration:double;
+    }
+    #id{text-align: center;
+        font-weight: bold;
+    }
+    nav ul{list-style-type:none;
+            }
+            nav a{
+            text-decoration:none;padding-right:90px;
+            font-size: medium;
+            font-weight: bold;
+          }
+            nav LI{display: inline;
+            }
+            #id4{background-color: #e6d980;}
+            #id5{text-shadow: 2px 2px hsl(85, 82%, 69%);;}
+            a{color:blue}
+            .BD{background-color:#e6eded;}
+            .t1{background-color: hsl(187, 55%, 69%);}
+            img{border-radius: 50%;}
+            
+            UL,A{list-style-type: none;
+                text-decoration: none;
+            }
+            
+            body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f08b;
+      margin: 20px;
+    }
+    
+
+    form {
+      background-color: #ffffffb8;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .IN, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      box-sizing: border-box;
+    }
+
+    .INPUT{
+      background-color: #4caf50;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .INPUT:hover {
+      background-color: #45a049;
+    }
+    .XXB{font-family:gill;
+        color: rgb(6, 11, 1);
+        align-items: center;
+        
+
+    }
+</style>
+</head>
+<body CLASS="BD">
+    <picture >
+        <HEADER>
+            <table class="t1" >
+                <tr  colspan="4">
+                    <td class="tt"><img src="RNPP.jpg"WIDTH="100"height="100"></td>
+                    
+                        <td class="tt"><img src="RNPLOGO.jpg"WIDTH="100"height="100"></td>
+                        </tr>
+            <tr>
+            <TD>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</A></li>
+                            <li><a href="login.html">LOGIN</a></li>
+                            <li><a href="LEG.HTML">REGISTER</a></li>
+                        
+                        <li class="dropdown"><a class="dropbtn"  href="#">RECRUITMENT</A>
+                        <DIV class="dropdown-content">
+                          <A HREF="BASICP.HTML">RNP Basic course</A>
+                          <A HREF="CADET.HTML">RNP Cadet course</A>
+                        </DIV>
+                        </li>
+                        <li><a href="NOTICE.HTML">NOTICE</A></li>
+                        
+                        <li><a href="ABOUT US.HTML">ABOUT US</A></li>
+                    </UL>
+                </NAV></TD>
+            
+            <td></td>
+            
+        </tr>
+    <tr>
+        <TR></TR>
+            
+           
+            
+            </tr>
+            
+        </tr>
+    </table>
+</HEADER>
+
+    </picture>
+
+<H2><B CLASS="XXB" font-color="blue">WELCOME TO RWANDA NATIONAL POLICE ONLINE-RECRUITMENT CADET COURSE </H2></B>
+<form>
+    <h2 font-color="cyan"> Online-Recruitment Cadet course Form</h2>
+
+    <label for="familyName">Family name:</label>
+    <input type="text" id="familyName" name="familyName" CLASS="IN">
+
+    <label for="surname">Surname:</label>
+    <input type="text" id="surname" name="surname" CLASS="IN" >
+
+    <label for="otherNames">Other names:</label>
+    <input type="text" id="otherNames" name="otherNames"CLASS="IN" >
+
+    <label for="sex">Sex:</label>
+    <select id="sex" name="sex" >
+        <option value="">  </option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+
+    <label for="dob">Date of birth:</label>
+    <input type="date" id="dob" name="dob" >
+
+    <label for="fatherName">Father's name:</label>
+    <input type="text" id="fatherName" name="fatherName" CLASS="IN">
+
+    <label for="motherName">Mother's name:</label>
+    <input type="text" id="motherName" name="motherName"CLASS="IN" >
+
+    <label for="maritalStatus">Marital status:</label>
+    <select id="maritalStatus" name="maritalStatus" >
+        <option value="" >  </option>
+      <option value="single">single</option>
+      <option value="married">married</option>
+    </select>
+    <label for="nationality">Nationality:</label>
+    
+    <select id="countries" name="countries">
+        <option value="">  </option>
+        
+            <option value="DZ">Algeria</option>
+            <option value="AO">Angola</option>
+            <option value="BJ">Benin</option>
+            <option value="BW">Botswana</option>
+            <option value="BF">Burkina Faso</option>
+            <option value="BI">Burundi</option>
+            <option value="CM">Cameroon</option>
+            <option value="CV">Cape Verde</option>
+            <option value="CF">Central African Republic</option>
+            <option value="TD">Chad</option>
+            <option value="KM">Comoros</option>
+            <option value="CG">Congo</option>
+            <option value="CD">Democratic Republic of the Congo</option>
+            <option value="DJ">Djibouti</option>
+            <option value="EG">Egypt</option>
+            <option value="GQ">Equatorial Guinea</option>
+            <option value="ER">Eritrea</option>
+            <option value="ET">Ethiopia</option>
+            <option value="GA">Gabon</option>
+            <option value="GM">Gambia</option>
+            <option value="GH">Ghana</option>
+            <option value="GN">Guinea</option>
+            <option value="GW">Guinea-Bissau</option>
+            <option value="KE">Kenya</option>
+            <option value="LS">Lesotho</option>
+            <option value="LR">Liberia</option>
+            <option value="LY">Libya</option>
+            <option value="MG">Madagascar</option>
+            <option value="MW">Malawi</option>
+            <option value="ML">Mali</option>
+            <option value="MR">Mauritania</option>
+            <option value="MU">Mauritius</option>
+            <option value="MA">Morocco</option>
+            <option value="MZ">Mozambique</option>
+            <option value="NA">Namibia</option>
+            <option value="NE">Niger</option>
+            <option value="NG">Nigeria</option>
+            <option value="RW">Rwanda</option>
+            <option value="ST">São Tomé and Príncipe</option>
+            <option value="SN">Senegal</option>
+            <option value="SC">Seychelles</option>
+            <option value="SL">Sierra Leone</option>
+            <option value="SO">Somalia</option>
+            <option value="ZA">South Africa</option>
+            <option value="SS">South Sudan</option>
+            <option value="SD">Sudan</option>
+            <option value="TZ">Tanzania</option>
+            <option value="TG">Togo</option>
+            <option value="TN">Tunisia</option>
+            <option value="UG">Uganda</option>
+            <option value="ZM">Zambia</option>
+            <option value="ZW">Zimbabwe</option>
+    
+        
+        <option value="US">United States</option>
+        <option value="CA">Canada</option>
+        <option value="GB">United Kingdom</option>
+        <option value="AU">Australia</option>
+        <option value="IN">India</option>
+        <option value="JP">Japan</option>
+        <option value="DE">Germany</option>
+        <option value="FR">France</option>
+        <option value="BR">Brazil</option>
+        <option value="ZA">South Africa</option>
+        <option value="MX">Mexico</option>
+        <option value="IT">Italy</option>
+        <option value="ES">Spain</option>
+        <option value="RU">Russia</option>
+        <option value="CN">China</option>
+        <option value="AR">Argentina</option>
+       
+    </select>
+    <label for="idCard">National Identity Card front image:</label>
+    <input type="file" id="idCard" name="idCard" CLASS="IN">
+    <label for="idCard">National Identity Card back image:</label>
+    <input type="file" id="idCard" name="idCard" CLASS="IN">
+
+    <label for="idCard">A-level Certificate</label>
+    <input type="file" id="idCard" name="idCard" CLASS="IN">
+
+    <label for="telephone">Telephone:</label>
+    <input type="tel" id="telephone" name="telephone"CLASS="IN" >
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" CLASS="IN">
+
+    <input type="submit" value="Submit"CLASS="INPUT"CLASS="IN">
+  </form>
+
+
+</body>
+</html>
